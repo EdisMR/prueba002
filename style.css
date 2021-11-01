@@ -15,20 +15,12 @@ body{
 }
 
 /* Para los textos de relleno */
-
 .relleno{
     margin-bottom: 20px;
 }
 
-.relleno2{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Propiedades para el contenedor de la imagen */
-.right{
+.elementsContainer{
     width: 100%;
     max-width: 600px;
     padding: 20px;

@@ -1,6 +1,6 @@
 /* Declarar llas variables para el contenedor padre */
 var innerAnimatedImage = {
-	element: document.querySelector(".right"),/* Elemento a animar */
+	element: document.querySelector(".elementsContainer"),/* Elemento a animar */
 	cantidadHorizontal: 5,/* Cantidad de cuadros horizontales */
 	cantidadVertical: 5,/* Cantidad de cuadros verticales */
 	cantidadItems: 0,/* Total de cuadros que conforman la cuadricula */
@@ -35,7 +35,7 @@ for (let x = 0; x < matriz.length; x++) {
 }
 
 /* Llenar la matriz con los elementos creados anteriormente */
-var algo = Array.from(document.querySelectorAll(".right .divNuevo")), contador = 0;
+var algo = Array.from(document.querySelectorAll(".divNuevo")), contador = 0;
 for (let vert = 0; vert < innerAnimatedImage.cantidadVertical; vert++) {
 	for (let hori = 0; hori < innerAnimatedImage.cantidadHorizontal; hori++) {
 		matriz[vert][hori] = algo[contador];
