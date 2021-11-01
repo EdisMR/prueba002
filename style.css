@@ -1,0 +1,51 @@
+/* Aspectos generales */
+html{
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+}
+
+/* Para los textos de relleno */
+
+.relleno{
+    margin-bottom: 20px;
+}
+
+.relleno2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Propiedades para el contenedor de la imagen */
+.right{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    height: 300px;
+    border: 2px solid black;
+    line-height: 0;
+}
+
+
+/* Estos son los elementos que se añadirán mediante JS;
+    acá se agrega la imágen que tendrá el elemento
+*/
+.divNuevo{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    background-color: #444;
+    background-image: url("https://picsum.photos/id/3/200/300");
+    background-repeat: no-repeat;
+}
